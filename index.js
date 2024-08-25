@@ -43,12 +43,12 @@ function rollDice() {
 
     // แสดงผลลัพธ์
     diceResult.innerHTML = 
-        `Dice of To Hit: ${values.join(', ')}<br>
-        To Hit: ${hitCount}<br>
-        Dice of To Wound: ${woundValues.join(', ')}<br>
-        To Wound: ${woundCount}`;
+        `Dice of To Hit : ${values.join(', ')}<br>
+        To Hit : ${hitCount}<br>
+        Dice of To Wound : ${woundValues.join(', ')}<br>
+        To Wound : ${woundCount}`;
     
     diceImages.innerHTML = 
-        `Images of To Hit:<br>${hitImages.join('')}<br>
-        Images of To Wound:<br>${woundImages.join('')}`;
+        `Images of To Hit : <br>${hitImages.join('')}<br>
+        Images of To Wound : <br>${woundImages.join('')}`;
 }
