@@ -1,0 +1,126 @@
+body {
+  background: #1e2a31; 
+  color: #e0e0e0; 
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #2a3a44; 
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #4a5a67;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: 'WarhammerFont', serif; 
+  color: #f0e6d6; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  color: #e0e0e0;
+}
+
+input, button {
+  margin-bottom: 20px;
+}
+
+input, button {
+  font-size: 1.8rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #4a5a67; 
+}
+
+#ToHit, #numOfDice, #ToWound {
+  background-color: #3a4a5b; 
+  color: #e0e0e0; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border: none;
+  background-color: #cc3333; 
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #aa0000; 
+}
+
+button:active {
+  background-color: #880000; 
+  transform: scale(0.95);
+}
+
+input {
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#diceResult {
+  margin: 25px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e0e0e0; 
+}
+
+#diceImages {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#diceImages img {
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.github-link {
+  margin-top: 30px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 8px 12px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.github-link:hover {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+.github-link i {
+  margin-right: 8px;
+  font-size: 18px;
+}
